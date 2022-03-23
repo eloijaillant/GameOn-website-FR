@@ -30,9 +30,9 @@ function closeModal() {
 
 // Close modal event
 
-[modalCloseBtn[0], closeBtn[0]].forEach(btn => {
+[modalCloseBtn[0], closeBtn[0]].forEach((btn) => 
   btn.addEventListener('click', closeModal)
-})
+)
 
 
 // Keep form data
