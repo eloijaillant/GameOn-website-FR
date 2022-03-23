@@ -46,7 +46,7 @@ function checkCondition(condition){
   else return true;
 }
 
-// Send specific error message rather than elementId provided
+// Send specific error message
 function getErrorMessage(elementId, message){
   if(elementId && message) {
     document.getElementById(elementId).style.display = "block";
